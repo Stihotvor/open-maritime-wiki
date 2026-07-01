@@ -1,1 +1,7 @@
-mkdocs-material
+# Core documentation dependencies
+mkdocs-material>=9.7.6
+mkdocs>=1.6.1
+
+# Security scanning tools (optional, remove if not needed)
+pip-audit>=2.6.0
+safety>=3.0.0

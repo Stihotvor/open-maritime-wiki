@@ -4,10 +4,21 @@ This is a MkDocs documentation site for maritime knowledge. It uses the Material
 
 ## Quick Start
 
+### Initial Setup (First Time Only)
+```bash
+# Option 1: Run the setup script
+bash setup.sh
+
+# Option 2: Manual setup
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 ### Build & Preview Commands
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Activate virtual environment (if not already active)
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Start local preview server (live reload at http://localhost:8000)
 mkdocs serve
